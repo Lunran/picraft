@@ -6,7 +6,7 @@ MAINTAINER Lunran <feitcounter@gmail.com>
 # Open port for Picraft and mcpi
 EXPOSE 4711
 
-CMD pip install picraft
+RUN pip install picraft
 
 # Run Python
 CMD python
