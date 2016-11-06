@@ -7,4 +7,4 @@ MAINTAINER Lunran <feitcounter@gmail.com>
 EXPOSE 4711
 
 # Run Python
-CMD python
+CMD pip install picraft && python
